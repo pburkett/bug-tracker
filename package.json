@@ -1,0 +1,17 @@
+{
+  "name": "bug-tracker",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run setup:client && npm run setup:server && npm run build:client",
+    "setup:client": "cd bug-tracker.client && npm i",
+    "setup:server": "cd bug-tracker.server && npm i",
+    "build:client": "npm run --prefix bug-tracker.client build",
+    "start": "node bug-tracker.server/index.js"
+  },
+  "engines": {
+    "node": "^14.15.4"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

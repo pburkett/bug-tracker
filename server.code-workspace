@@ -1,0 +1,56 @@
+{
+  "folders": [
+    {
+      "path": "bug-tracker.server"
+    }
+  ],
+  "settings": {
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "javascript.implicitProjectConfig.checkJs": true,
+    "files.exclude": {
+      "**/.nyc_*": true,
+      "**/coverage": true,
+      "**/node_modules": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#6fcbc6",
+      "activityBar.activeBorder": "#be5bc4",
+      "activityBar.background": "#6fcbc6",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#be5bc4",
+      "activityBarBadge.foreground": "#15202b",
+      "editorGroup.border": "#6fcbc6",
+      "panel.border": "#6fcbc6",
+      "sideBar.border": "#6fcbc6",
+      "statusBar.background": "#49beb7",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#389c96",
+      "titleBar.activeBackground": "#49beb7",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#49beb799",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#49beb7"
+  }
+}
